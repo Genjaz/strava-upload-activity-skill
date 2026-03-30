@@ -1,0 +1,47 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# User configuration files (should not be in repo)
+strava-config.json
+strava-upload.log
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+logs/
+
+# Sensitive data
+*.pem
+*.key
+*.crt
+.env
+.env.local
+.env.*.local
+
+# Large files
+*.fit
+*.gpx
+*.tcx
+*.gz
